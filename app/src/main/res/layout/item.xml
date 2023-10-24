@@ -1,0 +1,123 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:background="#004445">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="2dp"
+    android:paddingEnd="2dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="cursive"
+        android:text="Nom:"
+
+        android:padding="2dp" />
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+        android:textColor="#FFFFFF"
+
+        android:padding="2dp" />
+    </LinearLayout>
+
+    <!-- Description de la Pizza -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="cursive"
+        android:text="Prénom:"
+
+        android:padding="2dp" />
+        <TextView
+            android:id="@+id/prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+        android:textColor="#FFFFFF"
+
+        android:padding="2dp" />
+    </LinearLayout>
+
+    <!-- Préparation de la Pizza -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="cursive"
+        android:text="Ville:"
+
+        android:padding="2dp" />
+        <TextView
+            android:id="@+id/ville"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+        android:textColor="#FFFFFF"
+
+        android:padding="2dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="cursive"
+        android:text="Sexe:"
+
+        android:padding="2dp" />
+        <TextView
+            android:id="@+id/sexe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+        android:textColor="#FFFFFF"
+
+        android:padding="2dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ID: 12345"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
